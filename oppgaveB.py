@@ -3,5 +3,5 @@ import pilgram
 
 image = input("skriv inn navnet på bilde")
 im = Image.open(image)
-pilgram.toaster(im).save("Image-Edit-Toaster.jpg")
+pilgram.inkwell(im).save("Image-Edit-Inkwell.jpg")
 print("bildet er klart")
