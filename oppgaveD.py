@@ -6,3 +6,4 @@ im = Image.open(image)
 
 new_image = im.resize((1080, 1080))
 new_image.save("image-edit.jpg")
+print("bilde er klart")

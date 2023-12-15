@@ -16,7 +16,7 @@ elif image_rotate == "-90":
     rotated_image = im.rotate(-90)
    
 rotated_image.save("image-edit.jpg")
-
+print("bilde er klart")
 
 
 
