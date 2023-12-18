@@ -1,4 +1,5 @@
 from PIL import Image 
+import subprocess
 
 
 image_path = input("skriv inn navnet på bilde")
@@ -17,6 +18,10 @@ elif image_rotate == "-90":
    
 rotated_image.save("image-edit.jpg")
 print("bilde er klart")
+valg = int(input("skriv 1 for å gå tilbake til menyen"))
+if valg == 1:
+    
+ subprocess.run(["python", "oppgaveH.py"])
 
 
 
